@@ -5,18 +5,43 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "framer-motion": "^11.3.0",
-    "next": "14.2.5",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-switch": "^1.0.1",
+    "@tailwindcss/postcss": "latest",
+    "@solana/wallet-adapter-base": "latest",
+    "@solana/wallet-adapter-react": "latest",
+    "@solana/wallet-adapter-react-ui": "latest",
+    "@solana/wallet-adapter-wallets": "latest",
+    "@supabase/supabase-js": "latest",
+    "@stripe/stripe-js": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "next-themes": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.4"
+    "react-hot-toast": "latest",
+    "recharts": "latest",
+    "stripe": "latest",
+    "zustand": "latest"
   },
   "devDependencies": {
-    "@types/node": "25.8.0",
-    "@types/react": "19.2.14"
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
